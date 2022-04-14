@@ -1,0 +1,137 @@
+.home{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackbutton{
+    margin-top:-40px;
+    margin-right:40px;
+    width: 205px;
+    height: 61px;
+    border-radius: 25px;
+    background-color: #1c1c11;
+    border: none;
+}
+.blackbutton1{
+    margin-top:-40px;
+    margin-right:40px;
+    width: 403px;
+    height: 61px;
+    border-radius: 25px;
+    background-color: #1c1c11;
+    border: none;
+}
+
+.blackbutton a {
+    text-decoration:none;
+}
+
+.blackbutton1 a {
+    text-decoration:none;
+}
+.colorButton {
+    margin-top:10px;
+    color:#25DB99;
+    font-weight:600;
+    font-size: 30px;
+}
+
+.colorButton:hover{
+    color:#25DB99;
+}
+.home3{
+    display: grid;
+    background-color:#EDEFE6;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items:center;
+    justify-content: center;
+}
+
+.home3 .div1{
+    padding:5em;
+    display:flex;
+    justify-content: center;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.home3 .div1 img{
+  width:100%;
+}
+
+.home3 .div2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+
+.div2{
+    font-weight:600;
+    font-size:16px;
+}
+
+/* RESPONSIVE body */
+@media(max-width: 769px){
+.home3{
+    display:flex;
+    flex-direction: column;
+}
+.blackbutton{
+    width: 183px;
+    height:41px;
+}
+.blackbutton1{
+    width: 183px;
+    height: 41px;
+}
+
+.colorButton {
+    font-size: 20px;
+}
+.home3 .div1 img{
+   width:250px;
+}
+.div2{
+    font-size:14px;
+    padding:2em;
+}
+}
+@media(max-width: 471px){
+    .buttons{
+       
+        flex-direction: column;
+    }
+    .blackbutton{
+        margin-left:auto;
+        width:50%;
+        margin-right: auto;
+        margin-bottom:70px;
+    }
+
+    .blackbutton1{
+        width:50%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+@media(max-width: 426px){
+    .home3 .div1 img{
+        width:150%;
+    }
+  
+
+    .div2{
+        padding:2em;
+    }
+}

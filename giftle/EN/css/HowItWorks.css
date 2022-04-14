@@ -1,0 +1,226 @@
+/* 
+=========================================================
+This is for framing the body section
+
+Replace it with the actual css for the footer and nav
+=========================================================
+*/
+nav, 
+footer{
+	width: 100%;
+}
+
+/* 
+======================
+Body
+=====================
+*/
+
+
+body{
+
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+main {
+	max-width: 1440px;
+}
+
+
+.bodyHeader{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 45px;
+	margin-bottom:3px;
+
+}
+
+.imgWorks{
+	width:100%;
+}
+
+
+.header--text{
+
+  font-size: 1rem;
+  margin-left: 10px;
+  max-width: 300px;
+  margin-bottom: 20px;
+
+}
+
+.infoCard--header h2,
+	.infoCard--header span{
+
+		align-self: flex-end;
+
+	
+	}
+
+/* 
+======================
+Left leaning Cards 
+=====================
+*/
+
+.infoCard--header{
+
+	display: flex;
+	font-size: 128px;
+	margin-left: 118px;
+	margin-bottom: 7px;
+
+}
+
+.infoCard--body{
+
+	display: flex;
+	flex-direction: column;
+	margin: 7px 53px 120px 53px;
+	background: #EDEFE6;
+    padding: 13px;
+
+
+}
+
+.infoCard--body__text{
+
+	max-height: 50%;
+	margin: 0 0 13px 0;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+
+.infoCard--body__img{
+
+
+	width: 100%;
+	
+}
+
+/* 
+======================
+Right leaning Cards 
+=====================
+*/
+
+
+.infoCard--header.right{
+
+	display: flex;
+	font-size: 128px;
+	margin-right: 118px;
+	margin-bottom: 7px;
+	text-align: right;
+	justify-content: flex-end;
+
+}
+
+
+.infoCard--body__text.right{
+
+	max-height: 50%;
+	margin: 13px 0 0 0;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+
+.header--text.right{
+
+	margin-right: 10px;
+
+}
+
+	
+
+
+/* 
+===========================
+Media Queries 
+===========================
+*/
+@media(min-width: 850px){
+
+	.infoCard--header h2,
+	.infoCard--header span{
+
+		align-self: flex-end;
+
+	
+	}
+
+	.header--text{
+
+  		font-size: 3rem;
+  		max-width: 100%;
+  		align-items: flex-end;
+  		margin-bottom: 20px;
+  
+	}
+
+	.infoCard--header.right{
+
+		justify-content: flex-end;
+		
+
+	}
+
+
+	/* 
+	======================
+	Left leaning Cards 
+	=====================
+	*/
+
+	.infoCard--body{
+
+	display: flex;
+	flex-direction: row;
+	margin: 7px 53px 120px 53px;
+	background: #EDEFE6;
+	align-items: center;
+	justify-content: space-between;
+    padding: 13px;
+
+
+	}
+
+	.infoCard--body__text{
+	max-width: 50%;
+	margin: 0;
+	margin-right: 13px;
+
+	}
+
+	.infoCard--body__img{
+
+	
+	width: 50%;
+	}
+
+	/* 
+	======================
+	Right leaning Cards 
+	=====================
+	*/
+
+
+	.infoCard--body__text.right{
+
+	max-height: 50%;
+	margin: 0 0 0 13px;
+	font-size: 20px;
+	font-weight: 700;
+
+	}
+}

@@ -1,0 +1,158 @@
+
+
+.divv1{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	
+}
+.contact{
+	margin-left:50%;
+	
+	display: flex;
+	flex-direction: column;
+	max-width: 515px;
+	min-width: 400px;
+	margin: 12px;
+	height: 664px;
+	background: #1C1C1C;
+	border: 2px solid #25DB99;
+	border-radius: 47px;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.contact--header{
+
+	margin-top: 0;
+
+}
+
+.contact--info{
+	display: flex;
+	flex-direction: column;
+}
+
+.contactInput{
+
+	background: #303030;
+	height: 29px;
+	width: 349px;
+	border: none;
+	border-radius: 73px;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	border: 1px solid #303030;
+
+
+
+}
+
+.contactInput--lg{
+	resize: none;
+	background: #303030;
+	height: 177px;
+	width: 349px;
+	border: none;
+	border-radius: 15px;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	border: 1px solid #303030;
+	margin-bottom: 12px;
+
+
+
+}
+
+
+.contactInput:hover{
+
+	border: 1px solid white;
+}
+
+.contactInput--lg:hover{
+
+	border: 1px solid white;
+}
+
+#messageInput{	resize:none;}
+
+.button{
+
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	padding: 8px 20px;
+	background: #000;
+	color: #25DB99;
+	border-radius: 25px;
+	border: 1px solid #25DB99;
+	text-decoration: none;
+	height: 51px;
+	width: 208px;
+	text-align: center;
+	align-self: center;
+	margin-bottom: 0;
+
+}
+
+.button:hover {
+
+	background: #3D3B3B;
+	border-color: #3D3B3B;
+
+
+}
+
+.button:active {
+
+	background: #25DB99;
+	border-color: #25DB99;
+	color: #000000;
+
+
+
+}
+
+.giftleInfo{
+
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	width:100%;
+	display:flex;
+	justify-content: center;
+
+
+}
+
+.giftleInfo--text{
+
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+@media(min-width: 950px){
+
+
+	body{
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+
+
+.giftleInfo{
+
+	margin-top: 56px;
+	margin-left: 99px;
+	text-align: left;
+
+}
+
+}

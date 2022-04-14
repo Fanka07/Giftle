@@ -1,0 +1,164 @@
+.formulaire{
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    display: grid;
+    align-items:center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width:876px;
+    height:595px;
+    background-color:
+    #1C1C1C;
+    border-radius:47px;
+    color:white;
+}
+
+
+.formulaire .div1 h1{
+    margin-top:20px;
+}
+.formulaire .div2 h1{
+    margin-top:-180px;
+}
+
+.margin-bottom{
+    margin-bottom:50px;
+}
+.div1{
+padding-left:2em;
+padding-right:2em;
+}
+
+.div2{
+    padding-left:2em;
+padding-right:2em;
+  
+   
+}
+::placeholder {
+    color:#25db9854;
+   }
+.input{
+    padding-left:1em;
+    width:349px;
+    height:49px; 
+    border-radius:109px;;
+    background-color:#303030;
+    color:#25DB99;
+    border:none;
+    margin-bottom:20px;
+}
+
+.greenButton{
+    margin-left:35%;
+    height:41px;
+    width:117px;
+    border-radius: 25px;
+    text-align:center;
+    background:none;
+    border:solid #25DB99 1px;
+    color: #25DB99;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+.greenButton:hover{
+    background-color:#25DB99;
+    color:white;
+}
+#trait{
+    height:200px;grid-area: 1 / 2 / 2 / 2;
+    position:relative;
+    width:2px;
+    height:500px;
+    background-color:#25DB99; 
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+/* RESPONSIVE */
+@media (max-width: 1025px) {
+#trait{right:0;}
+.div1 h1{
+    margin-bottom:35px;
+}
+.div1{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.div2{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+.input{
+    width:280px;
+}
+.formulaire{
+    width:90%;
+}
+  
+} 
+
+@media (max-width: 769px) {
+    #trait{
+        display:none;
+    }
+    .formulaire{
+        width:90%;
+        height:900px;
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       padding:0;
+}
+
+.div1 .input{
+    margin-left:15%;
+}
+
+.div1 label{
+    margin-left:15%;
+}
+    .div1{
+        align-items:center;
+        width:100%;
+        margin-top:50px;
+        padding:0;
+    }
+    .div2{
+        align-items:center;
+         width:100%;
+        margin-top:200px;
+        padding:0;
+    }
+
+    .greenButton{
+        margin-top:5px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .formulaire{
+        min-width: 300px;
+    }
+    .input{
+        width:200px;
+    }
+    
+    .greenButton{
+        margin-left:30%;
+    }
+}
