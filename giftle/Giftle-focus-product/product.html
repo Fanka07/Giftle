@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Giftle Product Info</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&family=Roboto:wght@200;300;400&display=swap"
+		rel="stylesheet">
+	<script src="https://use.fontawesome.com/e2689d5f0f.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="mainImg">
+			<img class="mainImg--img" src="images/macbook.png">
+		</div>
+
+		<main class="product">
+
+			<h2 class="product--info__header">Macbook M1 14” 128Go ssd 8Go gris sidéral</h2>
+
+			<section class="product--info">
+				<div class="product--info__subInfo">
+					<div class="subInfo--stock">
+						<p class="subInfo--stock__inStock">In Stock</p>
+						<img class="subInfo--stock__favImg" src="images/heart.png">
+						<p class="subInfo--stock__favText">Favoris</p>
+					</div>
+
+					<div class="subInfo--stockInfo">
+						<p class="subInfo--stockInfo__stats">Statement : Good</p>
+						<p class="subInfo--stockInfo__location">Location : Paris</p>
+					</div>
+
+					<div class="subInfo--reserve">
+						<div class="subInfo--reserve__purchase">
+							<div class="numSelector">
+								<input id="purchaseNum" type="text" value="1" name="">
+								<div class="numArrows">
+									<i class="fa fa-arrow-up" id="upArrow" aria-hidden="true"></i>
+									<i class="fa fa-arrow-down" id="downArrow" aria-hidden="true"></i>
+								</div>
+								<h2 class="purchase--reserveText">RESERVE</h2>
+								<a href="#" class="purchase--button">I take it</a>
+							</div>
+						</div>
+
+						<div class="subInfo--reserve__rating">
+							<img class="rating--stars" src="images/yStar.png">
+							<img class="rating--stars" src="images/yStar.png">
+							<img class="rating--stars" src="images/yStar.png">
+							<img class="rating--stars" src="images/yStar.png">
+							<img class="rating--stars" src="images/gStar.png">
+						</div>
+					</div>
+
+					<div class="linkInfo">
+						<div class="subInfo--reserve__link">
+							<p class="reserve--link__text">You want to create a link with your donor?</p>
+							<a href="#" class="purchase--button">Link</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<aside class="sideInfo">
+				<div class="sideInfo--extra__details">
+					<p class="details--header">Caracteristics</p>
+					<div class="details--specs">
+
+						<div class="details--specs__item">
+							<p class="specs--item__text">CPU : M1 Chipset 8 </p>
+						</div>
+
+						<div class="details--specs__item">
+							<p class="specs--item__text">Resolution :2560 x 1600</p>
+						</div>
+
+						<div class="details--specs__item">
+							<p class="specs--item__text">Display size : 14”</p>
+						</div>
+
+						<div class="details--specs__item">
+							<p class="specs--item__text">storage : 128Go</p>
+
+						</div>
+
+						<div class="details--specs__item">
+							<p class="specs--item__text">RAM : 8Go</p>
+						</div>
+
+						<div class="details--specs__item">
+							<p class="specs--item__text">Years : 2021</p>
+						</div>
+					</div>
+				</div>
+				<div class="sideInfo--chat">
+					<p class="sideInfo--chat__header">Chat</p>
+					<div class="sideInfo--chat__body"></div>
+					<input id="chatInput" type="text" name="">
+				</div>
+			</aside>
+		</main>
+	</div>
+	<script type="text/javascript" src="scripts.js"></script>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>company</h4>
+					<ul>
+						<li><a href="#">our services</a></li>
+						<li><a href="#">privacy policy</a></li>
+						<li><a href="#">our team</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>get help</h4>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">change Device</a></li>
+						<li><a href="#">retur a Device</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>BLOG</h4>
+					<ul>
+						<li><a href="#">about us</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
